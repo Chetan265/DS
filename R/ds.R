@@ -13,7 +13,7 @@ ds <- function(x){
   data.frame(mean = mean(x),
              median = median(x),
              max = max(x),
-             min = min(x)),
+             min = min(x),
              sd = sd(x),
-             variance = var(x)
+             variance = var(x))
 }
